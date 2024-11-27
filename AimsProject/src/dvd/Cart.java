@@ -34,7 +34,6 @@ public class Cart {
 			System.out.println("The cart is empty.");
 		}
 	}
-
 	public float totalCost() {
 		float total = 0;
 		for (int i = 0; i < qtyOrdered; i++) {
