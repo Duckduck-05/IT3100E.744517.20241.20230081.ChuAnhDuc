@@ -67,4 +67,32 @@ public class Cart {
 		return total;
 	}
 	
+	public void print(int id) {
+		if (qtyOrdered > 0) {
+			for (int i = 0; i < qtyOrdered; i++) {
+				if (itemsOrdered[i].getId() == id) {
+					System.out.println(itemsOrdered[i].toString());
+					return;
+				}
+			}
+			System.out.println("The disc is not in the cart.");
+		} else {
+			System.out.println("The cart is empty.");
+		}
+	}
+	
+	public void print(String title) {
+		if (qtyOrdered > 0) {
+			for (int i = 0; i < qtyOrdered; i++) {
+				if (itemsOrdered[i].isMatch(title)) {
+					System.out.println(itemsOrdered[i].toString());
+					return;
+				}
+			}
+			System.out.println("The disc is not in the cart.");
+		} else {
+			System.out.println("The cart is empty.");
+		}
+	}
+	
 }
