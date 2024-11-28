@@ -24,5 +24,10 @@ public class Store {
 		count--;
 		
 	}
+
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
