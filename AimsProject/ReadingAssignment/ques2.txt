@@ -1,1 +1,0 @@
-Yes, Java allows you to create multiple constructors in the same class, a concept known as constructor overloading. Each constructor must have a unique parameter list, so Java can tell them apart when you create an object.
