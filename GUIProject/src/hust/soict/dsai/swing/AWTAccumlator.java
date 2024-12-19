@@ -2,6 +2,7 @@ package hust.soict.dsai.swing;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 public class AWTAccumlator extends Frame {
     private TextField tfInput;
     private TextField tfOutput;

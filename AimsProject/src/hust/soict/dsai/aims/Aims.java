@@ -1,7 +1,7 @@
-package hust.soict.cybersec.aims;
-import hust.soict.cybersec.aims.cart.Cart;
-import hust.soict.cybersec.aims.media.*;
-import hust.soict.cybersec.aims.store.Store;
+package hust.soict.dsai.aims;
+import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.media.*;
+import hust.soict.dsai.aims.store.Store;
 import java.util.*;
 
 public class Aims {
