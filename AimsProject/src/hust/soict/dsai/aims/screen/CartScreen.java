@@ -12,7 +12,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 public class CartScreen extends JFrame {
-	private Cart cart;
+	private static Cart cart;
+	
+	public static void main(String[] args) {
+		new CartScreen(cart);
+	}
 	
 	public CartScreen(Cart cart) {
 		super();
